@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 1000px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.multibox {
+  border: 3px double #ccc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 300px;
+  max-height: 400px;
+  align-content: stretch;
+}
+.texto1{
+  margin-top: -300px;
+  color: #d32709;
+  font-size: 30px;
+}
+button{
+  margin-top: 30px;
+  background-color:#d32709;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  color:aliceblue;
+  cursor: pointer;
+}
+.multibox .box {
+  flex-basis: 33.3%;
+}
+.multibox .box.green {
+  background: green;
+}
+.multibox .box.img_1 {
+ background-image: url('./images/i-8.jpg')
+}
+.multibox .box.img_2 {
+ background-image: url('./images/i-7.jpg')
+}
+.multibox .box.img_3 {
+ background-image: url('./images/i-6.jpg')
+}
+.multibox .box.img_4 {
+ background-image: url('./images/i-5.jpg')
+}
+.multibox .box.img_5 {
+ background-image: url('./images/i-4.jpg')
+}
+.multibox .box.img_6 {
+ background-image: url('./images/i-3.jpg')
+}
+.multibox .box.img_7 {
+ background-image: url('./images/i-2.jpg')
+}
+.multibox .box.img_8 {
+ background-image: url('./images/i-1.jpg')
+}
+.multibox .box.orange {
+ background: orange;
+}
+.multibox .box.blue {
+ background: blue;
+}
+.multibox .box.red {
+ background: red;
+}
+.multibox .box.brown {
+ background: brown;
+}
+.multibox .box.grey {
+ background: grey;
+}
+.multibox .box.skyblue {
+ background: skyblue;
+}
+.section-page{
+  margin-top: -525px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foto{
+  width:600px;
+}
+.hb{
+  color: #d32709;
+  font-size: 30px;
+}
+.bandera{
+  width: 1600px;
+}
